@@ -24,6 +24,24 @@
     <link rel="shortcut icon" href="assets/images/logo.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<title>Sixteen Clothing HTML Template</title>
+
+<!-- Bootstrap core CSS -->
+<link href="page_acceuil/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!--
+
+TemplateMo 546 Sixteen Clothing
+
+https://templatemo.com/tm-546-sixteen-clothing
+
+-->
+
+<!-- Additional CSS Files -->
+<link rel="stylesheet" href="page_acceuil/assets/css/fontawesome.css">
+<link rel="stylesheet" href="page_acceuil/assets/css/templatemo-sixteen.css">
+<link rel="stylesheet" href="page_acceuil/assets/css/owl.css">
+
 </head>
 <style>
     .img{
@@ -90,6 +108,31 @@
                         <span class="menu-title">Acceuil</span>
                     </a>
                 </li>
+                <li class="nav-item menu-items">
+                    <a class="nav-link" href="pages/forms/add_etudiant.php">
+                        <span class="menu-icon">
+                <i class="mdi mdi-playlist-play"></i>
+              </span>
+                        <span class="menu-title">Ajouter un etudiant</span>
+                    </a>
+                </li>
+                <li class="nav-item menu-items">
+                    <a class="nav-link" href="">
+                        <span class="menu-icon">
+                <i class="mdi mdi-speedometer"></i>
+              </span>
+                        <span class="menu-title">Filiere et Niveau</span>
+                    </a>
+                </li>
+                <li class="nav-item menu-items">
+                    <a class="nav-link" href="pages/ui-features/commande_en_cour.php">
+                        <span class="menu-icon">
+                <i class="mdi mdi-playlist-play"></i>
+              </span>
+                        <span class="menu-title">Commande en cour...</span>
+                    </a>
+                </li>
+               
                
                
 
@@ -98,13 +141,11 @@
         <div class="container-fluid page-body-wrapper">
             <!-- partial:partials/_navbar.html -->
             <nav class="navbar p-0 fixed-top d-flex flex-row">
-                <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
-                    <a class="navbar-brand brand-logo-mini" href="index.html"><img src="assets/images/logo-mini.svg" alt="logo" /></a>
-                </div>
+                
                 <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
-                    <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
-              <span class="mdi mdi-menu"></span>
-            </button>
+                    <!-- <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize"> -->
+                 
+                </button>
                     <ul class="navbar-nav w-100">
                         <li class="nav-item w-100">
                             <form class="nav-link mt-2 mt-md-0 d-none d-lg-flex search">
@@ -115,31 +156,40 @@
                     
 
             </nav>
+       
+           
             <!-- partial -->
             <div class="main-panel">
                     <div class="content" style="background:white;">
-                
-                                        <center> 
-                                    <h2 style="  width: 620px;
-                                    font-family: sans-serif;
-                                    text-align: center;
-                                    color:green;
-                                    font-size: 30px;
-                                    background-color: #191c25;
-                                    border-radius: 10px;
-                                    margin: 50px;
-                                    padding: 8px;
-                                    z-index: 10px;
-                                    position:relative;
-                                    margin-right:150px;
-                                    ">Gestion des notes de l'Université International de Cote d'Ivoire  ( UICI).</h2></center> 
-                                        
-                        
-                            
-                                    <div class="row" >
+
+                    <div class="banner header-text">
+            <div class="owl-banner owl-carousel" style="position: relative;top:-50px;">
+                <div class="banner-item-01" style="background-image: url('assets/images/uici1.jpg');">
+                <div class="text-content">
+                    <h4>COUCOU</h4>
+                    <h2>Nous vous souhaitons un chaleureux akwaba dans notre belle Université</h2>
+                </div>
+                </div>
+                <div class="banner-item-02"  style="background-image: url('assets/images/uici2.jpg');">
+                <div class="text-content">
+                    <h4 style="color:white;">L'Université</h4>
+                    <h2 style="color: orangered;">Qui forme les leaders de demain </h2>
+                </div>
+                </div>
+                <div class="banner-item-03"  style="background-image: url('assets/images/uici4.jpg');">
+                <div class="text-content">
+                    <h4>Notre devise</h4>
+                    <h2 style="color:orangered"> Qualité <em style="color:white">Expertise</em> <em style="color:green">Leardership</em></h2>
+                </div>
+                </div>
+            </div>
+    </div>
+    <!-- Banner Ends Here -->
+
+                                    <div class="row" >  
 
                                             <!-- debut 1er card -->
-                                            <div class="col-6">
+                                            <div class="col-lg-4 col-sm-12 p-5" >
                                                 <div>
                                                     <img class="img" src="assets/images/etudiant.jpg" alt="">
                                                                     
@@ -149,7 +199,7 @@
                                             </div>
                                             <!-- fin 1er card -->
                                             <!-- debuter 2em card -->
-                                            <div class="col-6" style="margin-left:380px;top:-285px;">
+                                            <div class="col-lg-4 col-sm-12 p-5" >
                                                     <div>
                                                    
                                                         <img class="img" src="assets/images/etudiant2.jpg" alt="">
@@ -160,7 +210,7 @@
                                             </div>
                                                        <!-- fin 2em card -->
                                             <!-- debuter 3me card -->
-                                            <div class="col-6" style="margin-left:790px;top:-575px;">
+                                            <div class="col-lg-4 col-sm-12 p-5" >
                                                     <div>
                                                    
                                                         <img class="img" src="assets/images/-business-texte-concept-photo-sous-licence_csp45058320.webp" alt="">
@@ -321,7 +371,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
-    
+<script src="page_acceuil/assets/js/custom.js"></script>
+    <script src="page_acceuil/assets/js/owl.js"></script>
+    <script src="page_acceuil/assets/js/slick.js"></script>
+    <script src="page_acceuil/assets/js/isotope.js"></script>
+    <script src="page_acceuil/assets/js/accordions.js"></script>
 
 
 </body>
