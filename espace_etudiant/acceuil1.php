@@ -1,197 +1,18 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
 <meta name="author" content="">
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-
 <title>Sixteen Clothing HTML Template</title>
-
-<!-- Bootstrap core CSS -->
 <link href="../page_acceuil/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<!--
-
-TemplateMo 546 Sixteen Clothing
-
-https://templatemo.com/tm-546-sixteen-clothing
-
--->
-
-<!-- Additional CSS Files -->
 <link rel="stylesheet" href="../page_acceuil/assets/css/fontawesome.css">
 <link rel="stylesheet" href="../page_acceuil/assets/css/templatemo-sixteen.css">
 <link rel="stylesheet" href="../page_acceuil/assets/css/owl.css">
-
+<link rel="stylesheet"  href="style.css">
 </head>
-<style>
-body {
-    width: 100%;
-    height: 100%;
-    background-color: wheat;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-}
-
-#image {
-    width: 200px;
-    height: 100px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    margin-top: 400px;
-}
-
-form {
- 
-    min-width: 530px;
-    width: 400px;
-    max-height: 490px;
-    position: relative;
-    height: 400px;
-    justify-content: center;
-}
-
-#entete {
-    background-color: #191c25;
-    color: black;
-    width: 390px;
-    height: 65px;
-    text-decoration: none;
-}
-
-#langue button {
-    font-size: 18px;
-    background-color: white;
-}
-
-.option {
-    width: 200px;
-    height: 25px;
-    background-color: white;
-}
-
-#entete2 {
-    background-color: #191c25;
-    color: black;
-    width: 390px;
-    height: 170px;
-    text-decoration: none;
-}
-
-#entete2 button {
-    font-size: 18px;
-    width: 150px;
-    height: 30px;
-}
-
-#exécuter {
-    background-color: #191c25;
-    color: black;
-    width: 390px;
-    height: 70px;
-    position: relative;
-    border: 2px solid white;
-    
-}
-
-#exécuter .button {
-         width: 150px;
-        height: 40px;
-        background: #ff7200;
-        border-radius: 10px;
-        border: none;
-        font-size: 18px;
-      margin-left: 230px;
-        cursor: pointer;
-        color: #fff;
-        z-index: 10px;
-        top: -20px;
-        position: relative;
-}
-
-#entete {
-    margin-top: 15px;
-}
-
-#entete2 {
-    margin-top: 15px;
-}
-
-.option2 {
-    width: 150px;
-    height: 25px;
-    background-color: white;
-}
-
-label {
-    margin: 0 5px;
-    padding: 5px;
-    color: white;
-
-}
-.label2{
-    position: relative;
-    top: -30px;
-    margin: 0 25px;
-}
-
-input {
-    position: relative;
-    margin: 0 150px;
-    top: -30px;
-}
-.input{
-    position: relative;
-    top: -60px;
-}
-
-#utilisateur {
-    margin: 0 25px;
-}
-
-#bibliothèque {
-    margin: 0 22px;
-}
-
-.connexion button {
-    background-color: white;
-}
-.btn {
-        color: #ff7200;
-        width: 200px;
-        height: 40px;
-        background: #ff7200;
-        border-radius: 10px;
-        border: none;
-        font-size: 18px;
-        cursor: pointer;
-        z-index: 10px;
-    }
-    .h2{
-    width: 250px;
-        font-family: sans-serif;
-        text-align: center;
-        color: #ff7200;
-        font-size: 22px;
-        background-color: #fff;
-        border-radius: 10px;
-        z-index: 10px;
-      
-        
-}
-
-
-</style>
 <body>
   <!-- ***** Preloader Start ***** -->
    
@@ -228,7 +49,7 @@ if(isset($sms)){
 ?>
 
 
-<form action="index.php" method="POST">
+<form >
 
 <fieldset id="entete">
     <center> 
@@ -270,7 +91,7 @@ if(isset($sms)){
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body" style="height: 700px;">
-                                    <form action="" method="POST">
+                                    <form action="page1.php" method="POST">
                                     <div class="mb-3">
                                         <label style="color:black ;" for="recipient-name" class="col-form-label">Matricule :</label>
                                         <input  name="matricul"  style="margin-left: -10px; width:450px;position:relative;top:10px;" type="text" class="form-control" id="recipient-name">
@@ -280,7 +101,7 @@ if(isset($sms)){
                                         <input  name="nom"  style="margin-left: -10px; width:450px;position:relative;top:-20px;" type="text" class="form-control" id="recipient-name">
                                     </div>
                                     <div class="mb-3">
-                                        <label  style="color:black ; position:relative; top:-30px;" for="recipient-name" class="col-form-label">Prenom :</label>
+                                        <label  style="color:black ; position:relative; top:-30px;" for="recipient-name" class="col-form-label">Prenoms :</label>
                                         <input  name="prenom"  style="margin-left: -10px; width:450px;position:relative;top:-40px;" type="text" class="form-control" id="recipient-name">
                                     </div>
                                     <div class="mb-3">
@@ -289,7 +110,7 @@ if(isset($sms)){
                                     </div>
                                     <div class="mb-3">
                                         <label  style="color:black ; position:relative; top:-80px;" for="recipient-name" class="col-form-label">Telephone :</label>
-                                        <input  name="tel"  style="margin-left: -10px; width:450px;position:relative;top:-90px;" type="number" class="form-control" id="recipient-name">
+                                        <input  name="telephone"  style="margin-left: -10px; width:450px;position:relative;top:-90px;" type="number" class="form-control" id="recipient-name">
                                     </div>
                                     <div class="mb-3">
                                         <label  style="color:black ; position:relative; top:-100px;" for="recipient-name" class="col-form-label">Email :</label>
@@ -304,11 +125,7 @@ if(isset($sms)){
                                     <button name="valider" type="submit" style="background-color:green ; color:white;margin-right:10px;" class="btn ">Valider</button>
                                 </div>
                                 <div class="footer" style="position:relative; top: -40px;" >
-                                    <?php
-                                            if(isset($sms)){
-                                                echo $sms;
-                                            }
-                                    ?>
+                                    
                                 </div>
                                     </form>
                                 </div>
@@ -336,9 +153,7 @@ if(isset($sms)){
     <script src="../page_acceuil/assets/js/isotope.js"></script>
     <script src="../page_acceuil/assets/js/accordions.js"></script>
 
-
 </body>
-
 </html>
 
 <?php
